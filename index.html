@@ -1,90 +1,98 @@
 <!DOCTYPE html>
 <html>
-<head>
+    <head>
 		<meta charset="utf-8">
-		<title> Sasha's website</title>
+		<title> Sasha's Website</title>
 		<link rel="stylesheet" href="./style.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com"> 
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+        <link href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap" rel="stylesheet">
 	</head>
 	<body> 
 		<header>
+            <nav>
+                <a id="title" href="#home">Sasha Provorova</a>
             <!--<li>
                 <ol>home</ol>
                 <ol>about</ol>
                 <ol>activities</ol>
                 <ol>contact</ol>
             </li> -->
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#activities">Activities</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
 
-            <ul>
-                <li><a href="#home">home</a></li>
-                <li><a href="#about">about</a></li>
-                <li><a href="#activities">activities</a></li>
-                <li><a href="#contact">contact</a></li>
-            </ul>
+        <!--<li> Home</li> -->
 
+        <section class="home" id="home" >                                                                                     
+            <div>
+                <img src="./img/myself.jpg">
+            </div>
 
-            <section id="home" style="height: 100vh;" >
-                <h1>home</h1>
-                <div style="display:flex;">
-                    <div>
-                        <img src="./img/myself.jpg"style="height: 150px;">
-                        </div>
-                    </div>
-                    <div> 
-                        <h2>Hi, I'm Sasha</h2>
-                        <p>fefssc</p>
-                        
-                    </div>
-                </section>
+            <div> 
+                <h1>Hi, I'm Sasha</h1>
+                <h2>cats</h2>
+                <h2>tea and more cats. plese keep taht in mind. i hate ice cream</h2>      
+            </div>
+        </section>
 
+        <!--<li> About</li> -->
 
-          <section id="about"style="height: 100vh;" >
-            <h1>about me</h1>
-            <div style="display:flex;">
-                <div>
-                    <img src="./img/myself.jpg"style="height: 150px;">
-                    </div>
-                <div>
-                    <h2>about me smth</h2>
-                    <p>dgewgdjbh</p>
-                    
-                </div>
+        <section class="about" id="about" >
+            <div>
+                <h1>About me</h1>
+                <p>emily sucks. i cannot speell but its okay ill get there eventually</p>
+                <p>emily got all a on her midterms. im manifestining it. emily is notr real 
+                    american, she is not sour candy lover so shes making things up. I do not sleep talk</p>
                 
             </div>
+            <div>
+                <img src="./img/myself.jpg">
+                <img src="./img/myself.jpg">
+            </div>
         </section>
 
-
-          <section id="activities" style="height: 100vh;" >
-            <h1>activities</h1>
-            <div style="display:flex;">
+        <!--<li> Activities</li> -->
+        <section id="activities">
+            <h1>Activities</h1>
+            <div>
                 <div>
-                    <img src="./img/myself.jpg" style="height: 150px;">
+                    <img src="./img/myself.jpg">
                     <h2>tea</h2>
                     <p>green tea</p>
-                    </div>
+                </div>
                 <div>
-                    <img src="./img/orientation.jpg" style="height: 150px;">
+                    <img src="./img/orientation.jpg" >
                     <h2>activities smth</h2>
-                    <p>cats lover</p>
-                    
+                    <p>cats lover</p> 
+                </div>
+                <div>
+                    <img src="./img/orientation.jpg" >
+                    <h2>god is a cat</h2>
+                    <p>cats lover</p> 
                 </div>
             </div>
         </section>
 
-        <section id="contact" style="height: 100vh;" > 
-            <h1>contact</h1>
-            <div style="display:flex;">
-                <form>
-                <img src="./img/myself.jpg"style="height: 500px;">
-                <form action="abp5693@psu.edu" method="post" enctype="text/plain"></form>
-                    <div style="display: flex; flex-direction:column">
-                        <label>Name:</label>
-                        <input type="text"name="Your name"placeholder="Enter your name here">
-                        <label>Email:</label>
-                        <input type="email"name="Your email"placeholder="Enter your email here">
-                        <label>Message:</label>
-                        <textarea name="Your message" cols="50"rows="10"placeholder="Enter your messsage"></textarea>
-                        <input type="submit" name="">
-                    </div>
+        <!--<li> Contact</li> -->
+        <section id="contact" >
+            <div><img src="./img/myself.jpg"></div>  
+            <div>
+                <h1>Contact</h1> 
+                <form action="abp5693@psu.edu" method="post" enctype="text/plain">
+                    <label>Name:</label>
+                    <input type="text"name="Your name"placeholder="Enter your name here"><br>
+                    <label>Email:</label>
+                    <input type="email"name="Your email"placeholder="Enter your email here"><br>
+                    <label>Message:</label><br>
+                    <textarea name="Your message" cols="50"rows="10"placeholder="Enter your messsage"></textarea><br>
+                    <input type="submit">
                 </form>
             </div>
         </section>
@@ -98,7 +106,8 @@
                 <a href="https://github.com/sashaprovorova/DEV_PSU_site"><a>
 
                 -->
-        </header>
+        <footer></footer>
+        
 	</body>
 	<script> </script>
 </html>
