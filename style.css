@@ -29,7 +29,7 @@ img{
     width: 400px;
     margin-bottom: 50px;
     border:12px solid black; 
-
+    /*padding: 10px;*/
 }
 a{
     text-decoration: none;
@@ -38,7 +38,14 @@ a{
 a:hover{
     color:#b3b3b3; 
 }
-
+ form{
+    line-height:2;
+    font-size: 1.25rem;
+ }
+ i{
+    font-size: 1.75rem;
+    margin: 0 10px 10px 10px;
+ }
 /*Navbar*/
 
 nav{
@@ -75,7 +82,62 @@ nav ul li{
     margin:5%;
 
 }
+
+
+.background-image {
+    border: 0px;
+    width: 100%;
+    height: 110%;
+    object-fit: cover;
+    position: absolute;
+}
+
 /*About Section*/
+/*
+.about {
+    background-color:#486352;
+}
+*/
 .about div{
     margin: 8%; 
+}
+
+/*Activities Section*/
+.activities{
+    display: block;
+    background-color: #b3b3b3;
+    padding: 50px 0 100px 0;
+    text-align: center;
+
+}
+.activities-container{
+    display:flex;
+    margin: 0 8%;
+    justify-content: space-between;
+}
+.activities-container p{
+    padding: 0 8%;
+}
+.activities-container img{
+    width:300%;
+    height:300px;
+    border-radius: 50%;
+}
+/*Contact Section*/
+.contact{
+    justify-content: center;
+}
+
+.contact div{
+    margin:5%;
+}
+
+/* footer */
+footer{
+    height:125px;
+    width:100%;
+    background-color: black;
+    color: white;
+    padding-top: 25px;
+    text-align:center;
 }
